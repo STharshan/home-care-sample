@@ -8,11 +8,12 @@ import ServiceSection from "./components/ServiceSection"
 import Gallery from "./components/Gallery"
 import CTASection from "./components/CTA"
 import FooterSection from "./components/Footer"
-
+import Navbar from "./components/Navbar"
 function App() {
 
   return (
     <>
+    <Navbar />
       <HeroSection />
       <IntroSection />
       <ServiceSection />
